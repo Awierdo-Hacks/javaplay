@@ -1,4 +1,4 @@
-package oefz2;
+package oeflamb;
 
 import javax.swing.*;
 
