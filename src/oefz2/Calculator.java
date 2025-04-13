@@ -32,7 +32,6 @@ public class Calculator {
         number2.setHorizontalAlignment(SwingConstants.RIGHT);
         result.setHorizontalAlignment(SwingConstants.RIGHT);
         result.setEditable(false);
-
         // lambda expression implementing here
         sum.addActionListener(e -> {
             result.setText(String.valueOf(Double.parseDouble(number1.getText()) +
